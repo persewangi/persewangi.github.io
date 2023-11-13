@@ -382,7 +382,8 @@ ol {
 }
 
 .header__nav {
-	background: #dd1515;
+	background: white;
+
 }
 
 .header__nav .logo {
@@ -462,7 +463,7 @@ ol {
 
 .header__nav .nav-menu .main-menu li a {
 	font-size: 15px;
-	color: #ffffff;
+	color: black;
 	font-weight: 500;
 	display: inline-block;
 	text-transform: uppercase;
@@ -1217,6 +1218,8 @@ ol {
 /*---------------------
   Footer
 -----------------------*/
+
+
 
 .footer-section {
 	padding-top: 60px;

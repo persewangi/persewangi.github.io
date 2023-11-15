@@ -1,1993 +1,710 @@
-
 <!DOCTYPE html>
-<html lang="en"  class="fuelux">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<!-- for ajax post method security token in laravel -->
-		<meta name="csrf-token" content="q2N27yD5gOQY3FV4xHLPMUOlHGBYGyy0AkL7hgsa" />
-					
-		<title>Persebaya Surabaya | Situs Resmi Persebaya (Official Website)
- - Persebaya.id</title>
+<html lang="zxx">
 
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-		<link href="https://www.persebaya.id/css/bootstrap-4-0-0.min.css" rel="stylesheet">
-		<link href="https://www.persebaya.id/css/font-awesome.min.css" rel="stylesheet">
-	    	<link rel="stylesheet" href="https://www.persebaya.id/css/photoswipe.css">
-	    	<link rel="stylesheet" href="https://www.persebaya.id/css/jquery-ui.css">
-			<link rel="stylesheet" href="https://www.persebaya.id/css/BonekCard/index.css">
-		
-        	<link href="https://www.persebaya.id/css/scoreboard-v2.css" rel="stylesheet" type="text/css"/>
-		
-		
-		<link href="https://www.persebaya.id/css/persebaya-v2.1.css?v=77" rel="stylesheet">
-				
-	<!-- Important Owl stylesheet -->
-	<link rel="stylesheet" href="https://www.persebaya.id/css/owl.carousel.css">
-	<!-- Default Theme -->
-	<link rel="stylesheet" href="https://www.persebaya.id/css/owl.theme.css">
-	
-	<style type="text/css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Specer Template">
+    <meta name="keywords" content="Specer, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Persewangi | Home</title>
 
-	    .gallery-container {
-	        position: relative;
-	        width: 100%;
-	    }
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 
-	    .my-gallery {
-			padding: 0; 
-	    }
+    <!-- Css Styles -->
+    <link rel="shortcut icon" href="./img/logo-club/main.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
 
-	    .my-gallery figcaption {
-	        display: none;
-	    }
-	    .caption-name-popup{
-	    	text-align: center;
-		    max-width: 420px;
-		    margin: 0 auto 2px auto;
-		    font-size: 13px;
-		    padding: 10px;
-		    line-height: 20px;
-		    color: #CCC;
-	    	font-weight: bold;
-	    }
-		
-		/*LAZY LOADING*/
-		.loadingLazy {
-		    background-color:#888;
-		    background-image:url("../img/loading_icon.gif");
-		    background-repeat:no-repeat;
-		    background-position:center;
-		}
-	</style>
-		
-		
-		<meta name="description" content="Persebaya Surabaya Official Website. Persebaya.id adalah situs resmi Persebaya Surabaya,  menyajikan berita terbaru tentang Persebaya, jadwal pertandingan, posisi klasemen, kabar pemain maupun aktivitas bonek & bonita."/>
-<meta name="keywords" content="persebaya, persebaya surabaya, situs resmi persebaya, official website persebaya, berita persebaya, update persebaya, bonek, bonita"/>
-<meta name="facebook-domain-verification" content="e6qldzublmiful6t8odi66iyd5jmly" />
-
-		<!-- MarkUp schema.org-->
-		<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "WebSite",
-			"name": "Persebaya.id",
-			"alternateName": "Persebaya Surabaya",
-			"url": "https://www.persebaya.id/",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target":"https://www.persebaya.id/search/result?search={search_term_string}",
-				"query-input": "required name=search_term_string"
-			}
-		}
-		</script>
-		<!-- MarkUp schema.org-->
-		<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@type": "Organization",
-			"name": "Persebaya Surabaya",
-			"url": "https://www.persebaya.id/",
-			"logo": {
-				"@type": "ImageObject",
-				"url": "https://www.persebaya.id/img/logo.png"
-			},
-		    "email": "mainbasket(at)gmail.com",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "Mezzanine Level, Surabaya Town Square, Jl. Hayam Wuruk No. 60, Sawunggaling, Wonokromo",
-				"addressLocality": "Surabaya",
-				"addressRegion": "Jawa Timur",
-				"postalCode": "60242",
-				"addressCountry": "Indonesia"
-			},
-			"sameAs": [
-				"https://www.facebook.com/officialpersebaya",
-				"https://twitter.com/persebayaupdate",
-				"https://www.instagram.com/officialpersebaya",
-				"-"
-			]
-		}
-		</script>
-		<!-- Start Alexa Certify Javascript -->
-		<script type="text/javascript">
-		_atrk_opts = { atrk_acct:"1Pa+m1a4KM+2WR", domain:"persebaya.id",dynamic: true};
-		(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
-		</script>
-		<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=1Pa+m1a4KM+2WR" style="display:none" height="1" width="1" alt="" /></noscript>
-		<!-- End Alexa Certify Javascript -->  	
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104621216-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-104621216-1');
-		</script>					
-
-	</head>
-	<body class="body-nopadding">
-		<script>
-		  window.fbAsyncInit = function() {
-		    FB.init({
-		      appId      : '196326707416995',
-		      xfbml      : true,
-		      version    : 'v2.6'
-		    });
-		  };
-
-		  (function(d, s, id){
-		     var js, fjs = d.getElementsByTagName(s)[0];
-		     if (d.getElementById(id)) {return;}
-		     js = d.createElement(s); js.id = id;
-		     js.src = "//connect.facebook.net/en_US/sdk.js";
-		     fjs.parentNode.insertBefore(js, fjs);
-		   }(document, 'script', 'facebook-jssdk'));
-		</script>
-		
-		<!-- Scripts -->
-		<script src="https://www.persebaya.id/js/jquery.min-2.1.3.js"></script>
-		<script src="https://www.persebaya.id/js/jquery.cookie.js"></script>
-		<!--<script src="https://www.persebaya.id/js/bootstrap.min-3.3.1.js"></script>	 -->
-
-		<script type="text/javascript">
-			var baseURL = "https:\/\/www.persebaya.id";	//getting base url
-			$.ajaxSetup({
-				headers: {
-					'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-				}
-			});
-		</script>		
-		
-		
-		<div class="container">
-    <div class="row d-none d-md-flex header-mb">
-        
-        <div class="col-sm-12 d-md-flex">
-            
-            
-            <form class="form-inline navbar-right ml-auto" role="search" method="GET" action="https://www.persebaya.id/search/result">
-                <div class="form-group searchbox-header">
-                    <input name="search" type="text" class="form-control navbar-search" placeholder="Search..." style="border-radius: 25px; width: 160px; height: 25px;background-color: #036933; padding: 5px 10px; color: #fff" />
-                </div>
-            </form>
-        </div>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
     </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="modalSearch" role="dialog">
-    <div class="modal-dialog">    
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-header" style="padding:15px 50px;">
-              <h4 class="modal-title">Search</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body load_modal" ></div>
-        </div>
-    </div>
-</div>
 
-<!-- Modal -->
-<div class="modal fade" id="firstTimePopup" role="dialog">
-    <div class="modal-dialog">    
-        <!-- Modal content-->
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
+    <!-- Offcanvas Menu Section Begin -->
+    <!-- Offcanvas Menu Section Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <i class="fa fa-close"></i>
+        </div>
+        <div class="search-btn search-switch">
+            <i class="fa fa-search"></i>
+        </div>
+
+        <ul class="main-menu mobile-menu">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#sejarah">SEJARAH</a></li>
+            <li><a href="#jawdwal">JADWAL</a></li>
+            <li><a href="#sejarah">BERITA</a></li>
+            <li><a href="#persewangitv">PERSEWANGI TV</a></li>
+
+            <li><a href="#contect">Contact Us</a></li>
+        </ul>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu Section End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+
+        <div class="header__nav" >
+            <div class="container">
                 <div class="row">
-                    <div class="col-12" id="bodyFirstTimePopup">
+                    <div class="col-lg-2">
+                        <div class="logo">
+                            <a href="./index.html"><img src="img/logo.png" alt="" ></a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <!-- <div class="modal-footer">
-            </div> -->
-        </div>
-    </div>
-</div>
+                    <div class="col-lg-10">
+                        <div class="nav-menu">
+                            <ul class="main-menu">
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#sejarah">SEJARAH</a></li>
+                                <li><a href="#sejarah">BERITA</a></li>
+                                <li><a href="#jawdwal">JADWAL</a></li>
+                                <li><a href="#persewangitv">PERSEWANGI TV</a></li>
 
-		
-
-		
-					<div class="container persebaya-nav">
-    <nav class="navbar navbar-expand-md navbar-light" style="padding-top: 0px; padding-bottom: 0px;">
-        <button class="navbar-toggler" style="border:none; padding-left: 0px; padding-right: 0px;" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-            
-            <img class="img-fluid" src="https://www.persebaya.id/img/bars.png" style="max-width: 26px; vertical-align: unset;" />
-        </button>
-        
-        <!-- Brand -->
-        <a class="navbar-brand" href="https://www.persebaya.id">
-            
-            <img class="logo img-fluid d-none d-md-inline" src="https://www.persebaya.id/img/logo.png">
-            <img class="logo img-fluid d-flex d-md-none" src="https://www.persebaya.id/img/logo-mobile-v2.png">
-        </a>
-
-        <div class="row" style="position:relative">
-            <!-- LOGO -->
-            <div class="d-inline d-md-none no-padding xs-logo">
-                
-                            </div>                        
-        </div>
-        
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="nav-content">   
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.persebaya.id">HOME</a>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link" data-toggle="dropdown" id="navbar-news" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    BERITA
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbar-news">
-                        <a class="dropdown-item" href="https://www.persebaya.id/c/1/berita">PERSEBAYA</a>
-                        <a class="dropdown-item" href="https://www.persebaya.id/c/9/berita">PERSEBAYA JUNIOR</a>
-                                            </div>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link" data-toggle="dropdown" id="navbar-match" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    PERTANDINGAN
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbar-match">
-                        <a class="dropdown-item" href="https://www.persebaya.id/jadwal-pertandingan/91">JADWAL</a>
-                        <a class="dropdown-item" href="https://www.persebaya.id/klasemen/40">KLASEMEN</a>
-                    </div>
-                </li>
-                                <li class="nav-item ">
-                    <a class="nav-link" href="https://www.persebaya.id/tim/91">TIM</a>
-                </li>
-                                <li class="nav-item dropdown ">
-                    <a class="nav-link" data-toggle="dropdown" id="navbar-match" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    EVENT
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbar-match">
-		    	<a class="dropdown-item" href="https://www.persebaya.id/event/2/main">GREEN FORCE RUN 2023</a>
-                        <a class="dropdown-item" href="https://www.persebaya.id/event/1/main">GREEN FORCE RUN 2020</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="http://www.persebayastore.com/" target="_blank">STORE</a>
-                </li>
-                <li class="nav-item dropdown ">
-                    <a class="nav-link" data-toggle="dropdown" id="navbar-fans" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                    FANS
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbar-fans">
-                        <a class="dropdown-item" href="https://www.persebaya.id/c/8/berita">BERITA</a>
-                        <a class="dropdown-item" href="https://www.persebaya.id/verification-status">PERSEBAYA SELAMANYA</a>
-			                        <a class="dropdown-item" href="https://www.persebaya.id/bonek-card/search">CEK FULL SEASON TICKET</a>
-			
-                    </div>
-                </li>
-
-                                <li class="nav-item dropdown ">
-                    <a class="nav-link" data-toggle="dropdown" id="navbar-gallery" href="#" role="button" aria-haspopup="true" aria-expanded="false">GALLERY</a>
-                    <div class="dropdown-menu" aria-labelledby="navbar-gallery">
-                        <a class="dropdown-item" href="https://www.persebaya.id/gallery" style="padding-left: 20px;">PHOTO</a>
-                        <a class="dropdown-item" href="https://www.youtube.com/channel/UCvhsCDvkI8piVUzhK4TbvOQ"  target="_blank" rel="nofollow" style="padding-left: 20px;">VIDEO</a>
-                    </div>
-                </li>
-                
-		       
-                <li class="nav-item d-flex d-sm-none">
-                    <a class="search-lup nav-link">
-                        SEARCH
-                    </a>
-                </li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
-        </div>
-    </nav>
-</div>
-
-
-
-					
-
-		
-				
-
-		<div class="container">
-			<!-- HEADER BANNER IMAGE -->
-    							
-			
-				
-																
-			
-
-
- 
- 
-<!-- Featured Posts -->	
-<div class="row mt-2">
-	<div class="col-md-2 px-md-0 py-md-0 order-last order-md-1">
-		<div class="row">
-			<div class="col-12 pr-md-2">
-				<div class="d-flex" style="background-color: #e3e3e3">
-					<span style="color: #036933;
-					font-size: 21px;
-					font-weight: 900;
-					padding: 10px 25px;">BERITA</span>
-				</div>
-				<a href="https://www.persebaya.id/c/1/berita" class="btn btn-persebaya-1 border-top-1 border-bottom-0 d-flex">PERSEBAYA</a>
-				<a href="https://www.persebaya.id/c/9/berita" class="btn btn-persebaya-2 border-top-1 border-bottom-0 d-flex">PERSEBAYA JUNIOR</a>
-				<a href="https://www.persebaya.id/c/5/berita" class="btn btn-persebaya-1 border-top-1 border-bottom-0 d-flex category-long-text">KOMPETISI KAPAL API PERSEBAYA</a>
-				<a href="https://www.persebaya.id/c/7/berita" class="btn btn-persebaya-2 border-top-1 border-bottom-0 d-flex">PS KOTA PAHLAWAN</a>
-				<a href="https://www.persebaya.id/c/8/berita" class="btn btn-persebaya-1 border-top-1 border-bottom-0 d-flex">FANS</a>
-				<a href="https://www.persebaya.id/jadwal-pertandingan/91" class="btn btn-persebaya-2 border-top-1 border-bottom-0 d-flex">JADWAL</a>
-			</div>
-		</div>
-	</div>
-									<div class="col-md-7 mb-2 mb-md-0 order-1 order-md-2">
-				<div class="headline-wrapper">
-					<a href="https://www.persebaya.id/r/3180/gagal-raih-poin-di-kandang-barito-putera">
-						<img  id="firstHeadlineImage"   class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/thumbs/large/uploads/post/2023/11/09/IMG_0198%20%281%29.jpg" >
-					</a>
-					<div class="headline-text">
-						
-						<a href="https://www.persebaya.id/r/3180/gagal-raih-poin-di-kandang-barito-putera">
-						<div class="big-title">Gagal Raih Poin di Kandang Barito Putera</div>
-						</a>
-						
-						
-						
-
-					</div>
-				</div>
-				<div class="other-post-title other-featured-title-mobile pt-1 pb-1  px-3 d-md-none">
-					<div class="post-date pb-1" style="font-size: 10px">01 November 2023</div>
-					<a href="https://www.persebaya.id/r/3178/uston-fokus-bangkitkan-mental-dan-kembalikan-soliditas-tim">
-						Uston Fokus Bangkitkan Mental dan Kembalikan Soliditas Tim
-					</a>
-				</div>				
-				<div class="other-post-title other-featured-title-mobile pt-1 pb-1 px-3 d-md-none">
-					<div class="post-date pb-1" style="font-size: 10px">28 October 2023</div>
-					<a href="https://www.persebaya.id/r/3175/uston-ditugaskan-memimpin-tim">
-						Uston Ditugaskan Memimpin Tim
-					</a>
-				</div>
-			
-			</div>
-															
-		<div class="col-md-3 px-md-0 py-md-0 order-2 order-md-last">
-			<div class="row">
-				<div class="col-6 col-md-12 mb-3 mb-md-2 pr-1 pl-md-2 pr-md-3">					
-					<div class="headline-wrapper">
-						<a href="https://www.persebaya.id/r/3181/berpeluang-besar-lolos-delapan-besar-epa-persebaya-junior-terus-matangkan-tim">
-							<img 
-							class="img img-fluid d-block mx-auto img-home-responsive"
-							src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/11/15/IMG_0911.jpg" >
-						</a>
-
-						
-						<div class="d-none d-md-block headline-text small-headline ">
-											                            
-								<span>
-									<a class="headline-post-category" href="https://www.persebaya.id/c/9/berita/persebaya-junior">
-										Persebaya Junior
-									</a>
-								</span>
-														<a href="https://www.persebaya.id/r/3181/berpeluang-besar-lolos-delapan-besar-epa-persebaya-junior-terus-matangkan-tim">
-								<div class="small-title">Berpeluang Besar Lolos Delapan Besar EPA, Persebaya Junior Terus Matangkan Tim</div>
-							</a>
-						</div>
-						
-						<div class="d-block d-md-none ">
-											                            
-								<span>
-									<a class="headline-post-category" href="https://www.persebaya.id/c/9/berita/persebaya-junior">
-										Persebaya Junior
-									</a>
-								</span>
-														<a href="https://www.persebaya.id/r/3181/berpeluang-besar-lolos-delapan-besar-epa-persebaya-junior-terus-matangkan-tim">
-								<div class="small-title">Berpeluang Besar Lolos Delapan Besar EPA, Persebaya Junior Terus Matangkan Tim</div>
-							</a>
-						</div>
-					</div>							
-				</div>
-				<div class="col-6 col-md-12 mb-3 mb-md-0 pl-1 pl-md-2 pr-md-3">					
-					<div class="headline-wrapper">
-						<a href="https://www.persebaya.id/r/3179/persebaya-tertinggal-lewat-gol-mike-ott">
-							<img 
-							class="img img-fluid d-block mx-auto img-home-responsive"
-							src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/11/09/IMG_0713.jpg" >
-						</a>
-						
-						
-						<div class="d-none d-md-block headline-text small-headline ">
-											                            
-								<span>
-									<a class="headline-post-category" href="https://www.persebaya.id/c/1/berita/persebaya">
-										Persebaya
-									</a>
-								</span>
-														<a href="https://www.persebaya.id/r/3179/persebaya-tertinggal-lewat-gol-mike-ott">
-								<div class="small-title">Persebaya Tertinggal Lewat Gol Mike Ott</div>
-							</a>
-						</div>
-						
-						<div class="d-block d-md-none ">
-											                            
-								<span>
-									<a class="headline-post-category" href="https://www.persebaya.id/c/1/berita/persebaya">
-										Persebaya
-									</a>
-								</span>
-														<a href="https://www.persebaya.id/r/3179/persebaya-tertinggal-lewat-gol-mike-ott">
-								<div class="small-title">Persebaya Tertinggal Lewat Gol Mike Ott</div>
-							</a>
-						</div>
-					</div>							
-				</div>
-			</div>			
-		</div>
-	</div>
-
-<div class="row mt-2">
-		<div class="col-md-4 pl-md-0 pr-md-1 mb-2 mb-md-0">
-		<div class="home-latest-match text-center">
-						<div class="d-block" style="color:#fff;text-decoration:none">
-
-				<div class="row" style="font-size: 11px; font-weight: 700; padding-top: 2px">
-					<div class="col-12 text-center">
-						BRI Liga 1 2023/2024
-																		
-					</div>
-				</div>
-
-				<div class="row" style="font-size: 14px; font-weight: 900">
-					
-					<div class="col-12 mt-1 text-center">Minggu, 26 November 2023</div>
-
-				</div>
-				<div class="row" style="font-size: 11px; font-weight: 700">
-					<div class="col-12 text-center">Stadion Gelora Joko Samudro</div>
-				</div>
-				<div class="row px-3 align-items-center mt-0" style="font-size: 11px; font-weight: 700">
-						<div class="col-4 pr-1">
-							<div class="row align-items-center">
-								<div class="col-6 pr-1">
-									<img src="https://www.persebaya.id/thumbs/medium/uploads/team/91/persebaya-surabaya-5ba4ae0395a81.png" class="img-fluid" />
-								</div>
-								<div class="col-6 px-1" style="text-transform: uppercase;">
-									Persebaya Surabaya
-								</div>
-							</div>
-						</div>
-						<div class="col-4 px-0">
-							<div style="font-size: 10px; font-weight: 400">
-																	KICK OFF
-															</div>
-							<div style="font-size: 16px; font-weight: 900">
-																	15:00
-															</div>
-						</div>
-						<div class="col-4 pl-1">
-							<div class="row align-items-center">
-								<div class="col-6 px-1" style="text-transform: uppercase;">
-									PSIS Semarang
-								</div>
-								<div class="col-6 pl-1">
-									<img src="https://www.persebaya.id/thumbs/medium/uploads/team/100/psis-semarang-5cd9415c19e46.png" class="img-fluid" />
-								</div>
-							</div>
-						</div>
-				</div>
-				<div class="row">
-					<div class="col-12 mb-1 text-center">
-											</div>
-				</div>
-			</div>
-					</div>
-		
-	</div>
-		<div class="col-md-4 pl-md-1 pr-md-1 mb-2 mb-md-0 home-top-banner">
-		<a href="https://www.persebaya.id/tim/91">
-			<img src="https://www.persebaya.id/img/banner/banner-meet-the-team-2023.jpg" class="img-fluid" style="height: 100%;" />
-			<!--<img src="https://www.persebaya.id/img/banner/Team-2020-Coming-Soon.jpeg" class="img-fluid" />-->
-
-		</a>
-	</div>
-
-	<div class="col-md-4 pl-md-1 pr-md-0 mb-2 mb-md-0 home-top-banner">
-
-		<!-- Pre Season Jersey Banner -->
-		<!--
-		<a href="https://www.persebayastore.com/collections/jersey?sort_by=created-descending" target="_blank" title="Authentic Jersey Box Set 2019">
-			<img src="https://www.persebaya.id/uploads/promo/37/5ce506d661b2a.jpg" class="img-fluid" />
-		</a>
-		-->
-		
-
-		<!-- New Arrival Banner -->
-		<!--
-		<a href="https://www.persebayastore.com/collections/all?sort_by=created-descending?utm_source=persebayaselamanya" target="_blank">
-			<img src="https://www.persebaya.id/uploads/promo/14/5eeaf55406c69.jpg" class="img-fluid" />
-		</a>
-		-->
-		
-
-		<!-- lelang honda mpm jatim -->
-		<!--
-		<a href="http://mpmhondajatim.com/lelangmpm" target="_blank">
-			<img src="https://www.persebaya.id/uploads/promo/90/5f7fe3db3f94e.jpg" class="img-fluid" />
-		</a>
-		-->
-				
-		<a href="https://www.persebayastore.com/collections/jersey-authentic-2k23" target="_blank">
-			<img id="offline-promo" src="https://www.persebaya.id/uploads/promo/134/64d31f70afb38.jpg" class="img-fluid" style="object-fit: cover; object-position: top;" />
-		</a>
-
-	</div>
-</div>
-<div class="row mt-2 align-items-center">
-	
-
-	<div class="col-12 mt-3 text-center">
-		<span style="font-weight:700; font-size: 12px;">OFFICIAL PARTNERS</span>
-	</div>
-
-	
-	<div class="col-12 col-md-2 px-md-0 my-3 mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="http://kapalapiglobal.com">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-kapal-api-v2.png" class="img-fluid home-sponsor-kapalapi" alt="kapal api">
-		</a>
-	</div>
-	<!--
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-0 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.nfkings.com/en/">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/Kings Wallet FC.png" class="img-fluid home-sponsor-kings-wallet" alt="Kings Wallet">
-		</a>		
-	</div>
-	-->
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.deltomed.id/">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/2023/14. ANTANGIN-h115px.png" class="img-fluid home-sponsor-extra-joss" alt="Antangin" style="width:115px">
-		</a>		
-	</div>	
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.citiconindonesia.com/">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/2023/12 CITICON-3.png" class="img-fluid home-sponsor-extra-joss" alt="CITICON" style="width:95px">
-		</a>		
-	</div>
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://bintang7.com/">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-extra-joss.png" class="img-fluid home-sponsor-extra-joss" alt="extra joss">
-		</a>		
-	</div>
-	    
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.mpmhondajatim.com/">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/2023/MPM HONDA5.jpg" class="img-fluid home-sponsor-mpm" alt="mpm honda">
-		</a>
-	</div>
-	<!--    
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://um-surabaya.ac.id">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-ums.png" class="img-fluid home-sponsor-ums" alt="UMS">
-		</a>
-	</div>-->	
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.kapalapistore.com/products/2721-bonteh-pet-melati-btl-330-ml">
-		  <img src="https://www.persebaya.id/img/banner/sponsorship/2023/TEH BONTEH.png" class="img-fluid home-sponsor-nusanet" alt="TEH BONTEH" style="width:88px;">
-		</a>
-	</div>
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://nusaboard.co.id">
-		  <img src="https://www.persebaya.id/img/banner/sponsorship/2023/15. NUSABOARD.png" class="img-fluid home-sponsor-nusanet" alt="NUSA" style="width:95px;">
-		</a>
-	</div>		
-	
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-5 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.instagram.com/hopephysiotherapy__/">
-		  <img src="https://www.persebaya.id/img/banner/sponsorship/2023/HOPE_FISIO_COLOR.png" width="100px" class="img-fluid home-sponsor-hopefisio" alt="hopefisio">
-		</a>
-	</div>
-	
-	<div class="col-6 col-sm-4 col-md-2 px-md-0 my-2  mx-md-5 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.nusa.net.id/">
-		  <img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-nusanet.png" class="img-fluid home-sponsor-nusanet" alt="nusanet">
-		</a>
-	</div>
-	<div class="col-6 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-		<a target="_blank" rel="nofollow" href="https://www.instagram.com/flashfitnessindonesia/">
-		  <img src="https://www.persebaya.id/img/banner/sponsorship/2023/FLASHFITNESS.png" class="img-fluid home-sponsor-flashfit" alt="flashfit">
-		</a>
-	</div>
-	<div class="col-6 col-sm-4 col-md-2 px-md-0 my-2  mx-md-5 text-center">
-		<a target="_blank" rel="nofollow" href="http://www.surya.co.id">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-surya-v2.png" class="img-fluid home-sponsor-surya" alt="surya">
-		</a>
-	</div>  
-	<div class="col-6 col-sm-4 col-md-2 px-md-0 my-2  mx-md-3 text-center">
-		<a target="_blank" rel="nofollow" href="https://jatim.tribunnews.com">
-			<img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-tribun-news.png" class="img-fluid home-sponsor-tribun-jatim" alt="tribun jatim">
-		</a>	
-	</div>
-
-		
-
-
-	</div>
-
-
-	<div class="row mt-2 mb-2">
-		<div class="d-none d-md-block">
-			<a href="https://www.propertihijauselamanya.com" target="_blank">
-				<img class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/img/banner/banner-phs-web.jpg">
-			</a>
-		</div>
-		<div class="col-12 d-block d-md-none">
-			<a href="https://www.propertihijauselamanya.com" target="_blank">
-				<img class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/img/banner/banner-phs-mobile.jpg">
-			</a>
-		</div>
-	</div>
-
-<div class="pl-md-5 pr-md-5">
-		
-	<div class="row mt-4">
-		<div class="col-md-6">
-			<a href="https://www.persebaya.id/c/1/berita" style="text-decoration: none;">
-				<h3 class="section-header">PERSEBAYA</h3>
-			</a>
-		</div>
-	</div>
-	<div class="row mt-1">
-									<div class="col-sm-4 m-t-10 pr-md-1 ">
-					<a href="https://www.persebaya.id/r/3178/uston-fokus-bangkitkan-mental-dan-kembalikan-soliditas-tim">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/11/01/IMG_3010_55.jpg" >
-					</a>
-					<div class="post-date mt-2">01 November 2023</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3178/uston-fokus-bangkitkan-mental-dan-kembalikan-soliditas-tim">
-							Uston Fokus Bangkitkan Mental dan Kembalikan Soliditas Tim
-						</a>
-					</div>
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3178/uston-fokus-bangkitkan-mental-dan-kembalikan-soliditas-tim">
-							Selengkapnya <b class="fa fa-angle-right"></b>
-						</a>
-					</div>
-				</div>
-					
-			
-					
-									<div class="col-sm-4 m-t-10 pl-md-1 px-md-1">
-					<a href="https://www.persebaya.id/r/3175/uston-ditugaskan-memimpin-tim">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/10/28/Picsart_23-10-28_19-05-51-728.jpg" >
-					</a>
-					<div class="post-date mt-2">28 October 2023</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3175/uston-ditugaskan-memimpin-tim">
-							Uston Ditugaskan Memimpin Tim
-						</a>
-					</div>
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3175/uston-ditugaskan-memimpin-tim">
-							Selengkapnya <b class="fa fa-angle-right"></b>
-						</a>
-					</div>
-				</div>
-					
-			
-					
-									<div class="col-sm-4 m-t-10 pl-md-1 ">
-					<a href="https://www.persebaya.id/r/3174/persebaya-takluk-di-kediri">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/10/27/IMG_0672.jpg" >
-					</a>
-					<div class="post-date mt-2">27 October 2023</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/3174/persebaya-takluk-di-kediri">
-							Full Time BRI Liga 1  2023/2024 | Persik 4-0 Persebaya
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3174/persebaya-takluk-di-kediri">
-							Persebaya Takluk di Kediri
-						</a>
-					</div>
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3174/persebaya-takluk-di-kediri">
-							Selengkapnya <b class="fa fa-angle-right"></b>
-						</a>
-					</div>
-				</div>
-					
-			
-							<div class="col-12">
-					<a href="https://www.persebaya.id/c/1/berita/persebaya" class="btn btn-persebaya-rounded btn-sm d-flex pull-right">Lainnya</a>
-				</div>
-					
-			</div>
-</div>
-
-<div class="pl-md-5 pr-md-5">
-	<div class="row mt-3">
-		<div class="col-md-6">
-			<a href="https://www.persebaya.id/c/2/berita" style="text-decoration: none;">
-				<h3 class="section-header">PERSEBAYA JUNIOR</h3>
-			</a>
-		</div>
-	</div>
-	<div class="row mt-1">
-									<div class="col-sm-4 m-t-10 pr-md-1 ">
-					<a href="https://www.persebaya.id/r/3177/rotasi-pemain-persebaya-u-18-menang-7-1-atas-madura-united-u-18">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/10/29/IMG2010_1.jpg" >
-					</a>
-					<div class="post-date mt-2">29 October 2023</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3177/rotasi-pemain-persebaya-u-18-menang-7-1-atas-madura-united-u-18">
-							Rotasi Pemain, Persebaya U-18 Menang 7-1 Atas Madura United U-18
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3177/rotasi-pemain-persebaya-u-18-menang-7-1-atas-madura-united-u-18">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-			
-						
-									<div class="col-sm-4 m-t-10 pl-md-1 px-md-1">
-					<a href="https://www.persebaya.id/r/3176/persebaya-u-16-pimpin-klasemen-grup-c">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/10/29/1698564600160.jpg" >
-					</a>
-					<div class="post-date mt-2">29 October 2023</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3176/persebaya-u-16-pimpin-klasemen-grup-c">
-							Persebaya U-16 Pimpin Klasemen Grup C
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3176/persebaya-u-16-pimpin-klasemen-grup-c">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-			
-						
-									<div class="col-sm-4 m-t-10 pl-md-1 ">
-					<a href="https://www.persebaya.id/r/3169/pesan-pembakar-semangat-bawa-persebaya-u-20-menang-3-1-atas-bali-united-u-20">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2023/10/14/DSC07054%20%281%29.jpg" >
-					</a>
-					<div class="post-date mt-2">14 October 2023</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/3169/pesan-pembakar-semangat-bawa-persebaya-u-20-menang-3-1-atas-bali-united-u-20">
-							Pesan Pembakar Semangat Bawa Persebaya U-20 Menang 3-1 Atas Bali United U-20
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/3169/pesan-pembakar-semangat-bawa-persebaya-u-20-menang-3-1-atas-bali-united-u-20">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-			
-							<div class="col-12">
-					<a href="https://www.persebaya.id/c/9/berita/persebaya-junior" class="btn btn-persebaya-rounded btn-sm d-flex pull-right">Lainnya</a>
-				</div>
-						
-			
-	</div>
-	
-	<div class="row mt-3">
-		<div class="col-md-6">
-			<a href="https://www.persebaya.id/c/5/berita" style="text-decoration: none;">
-				<h3 class="section-header">KOMPETISI KAPAL API PERSEBAYA</h3>
-			</a>
-		</div>
-	</div>
-	<div class="row mt-1">
-									<div class="col-sm-4 m-t-10 pr-md-1 ">
-					<a href="https://www.persebaya.id/r/2134/persebaya-ingin-cetak-koko-dan-rizky-baru">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2020/02/15/4CE032B5-BB95-4C8B-9F4A-21D358C99D02.jpeg" >
-					</a>
-					<div class="post-date mt-2">15 February 2020</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/2134/persebaya-ingin-cetak-koko-dan-rizky-baru">
-							Pembukaan Kompetisi Kapal Api Persebaya 2020
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/2134/persebaya-ingin-cetak-koko-dan-rizky-baru">
-							Persebaya Ingin Cetak Koko dan Rizky Baru
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/2134/persebaya-ingin-cetak-koko-dan-rizky-baru">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>				
-				</div>
-			
-							
-									<div class="col-sm-4 m-t-10 pl-md-1 px-md-1">
-					<a href="https://www.persebaya.id/r/1867/gol-bobby-bikin-el-faza-kokoh-di-puncak">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2019/09/14/1409-Hasil_KKAP_2019_TEO_Surabaya_vs_El_Faza.jpg" >
-					</a>
-					<div class="post-date mt-2">14 September 2019</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/1867/gol-bobby-bikin-el-faza-kokoh-di-puncak">
-							Hasil KKAP 2019: TEO Surabaya 0-1 El Faza
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/1867/gol-bobby-bikin-el-faza-kokoh-di-puncak">
-							Gol Bobby Bikin El Faza Kokoh di Puncak
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/1867/gol-bobby-bikin-el-faza-kokoh-di-puncak">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>				
-				</div>
-			
-							
-									<div class="col-sm-4 m-t-10 pl-md-1 ">
-					<a href="https://www.persebaya.id/r/1862/anak-bangsa-kudeta-untag-rosita">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2019/09/13/1309-Hasil_KKAP_2019_Untag_Rosita_vs_Anak_Bangsa.jpg" >
-					</a>
-					<div class="post-date mt-2">13 September 2019</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/1862/anak-bangsa-kudeta-untag-rosita">
-							Hasil KKAP 2019: Untag Rosita 0-2 Anak Bangsa
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/1862/anak-bangsa-kudeta-untag-rosita">
-							Anak Bangsa Kudeta Untag Rosita
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/1862/anak-bangsa-kudeta-untag-rosita">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>				
-				</div>
-			
-							<div class="col-12">
-					<a href="https://www.persebaya.id/c/5/berita/kompetisi-kapal-api-persebaya" class="btn btn-persebaya-rounded btn-sm d-flex pull-right">Lainnya</a>
-				</div>
-							
-			
-	</div>
-	<div class="row mt-3">
-		<div class="col-md-6">
-			<a href="https://www.persebaya.id/c/7/berita" style="text-decoration: none;">
-				<h3 class="section-header">PS KOTA PAHLAWAN</h3>
-			</a>
-		</div>
-	</div>
-	<div class="row mt-1">
-									<div class="col-sm-4 m-t-10 pr-md-1 ">
-					<a href="https://www.persebaya.id/r/2013/perjalanan-ps-kopa-terhenti">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2019/11/24/DSCF2940-01.jpeg" >
-					</a>
-					<div class="post-date mt-2">24 November 2019</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/2013/perjalanan-ps-kopa-terhenti">
-							Liga 3 Regional Jawa 2019: Persedikab Kediri 2-1 PS Kota Pahlawan
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/2013/perjalanan-ps-kopa-terhenti">
-							Perjalanan PS KoPa Terhenti
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/2013/perjalanan-ps-kopa-terhenti">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-
-						
-									<div class="col-sm-4 m-t-10 pl-md-1 px-md-1">
-					<a href="https://www.persebaya.id/r/2006/kalah-di-leg-pertama-ahmad-peluang-ps-kopa-masih-terbuka">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2019/11/19/IMG-20191119-WA0031.jpg" >
-					</a>
-					<div class="post-date mt-2">19 November 2019</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/2006/kalah-di-leg-pertama-ahmad-peluang-ps-kopa-masih-terbuka">
-							Liga 3 Regional Jawa 2019: PS Kota Pahlawan 1-4 Persedikab Kediri
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/2006/kalah-di-leg-pertama-ahmad-peluang-ps-kopa-masih-terbuka">
-							Kalah di Leg Pertama, Ahmad: Peluang PS KoPa Masih Terbuka
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/2006/kalah-di-leg-pertama-ahmad-peluang-ps-kopa-masih-terbuka">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-
-						
-									<div class="col-sm-4 m-t-10 pl-md-1 ">
-					<a href="https://www.persebaya.id/r/1984/ps-kopa-gagal-ulang-prestasi-musim-lalu">
-						<img 
-						class="img img-fluid d-block mx-auto img-home-responsive"
-						src="https://www.persebaya.id/thumbs/medium/uploads/post/2019/11/08/WhatsApp_Image_2019-11-08_at_20.32_.33_.jpeg" >
-					</a>
-					<div class="post-date mt-2">08 November 2019</div>
-										<div class="home-post-top-title">
-						<a href="https://www.persebaya.id/r/1984/ps-kopa-gagal-ulang-prestasi-musim-lalu">
-							Liga 3 Kapal Api Jawa Timur 2019: PS Kota Pahlawan 1-0 Persikoba Batu
-						</a>
-					</div>
-										<div class="post-title">
-						<a href="https://www.persebaya.id/r/1984/ps-kopa-gagal-ulang-prestasi-musim-lalu">
-							PS KoPa Gagal Ulang Prestasi Musim Lalu
-						</a>
-					</div>
-					
-					<div class="post-read-more">
-						<a href="https://www.persebaya.id/r/1984/ps-kopa-gagal-ulang-prestasi-musim-lalu">
-							Selengkapnya <i class="fa fa-angle-right"></i>
-						</a>
-					</div>
-				</div>
-				
-
-							<div class="col-12">
-					<a href="https://www.persebaya.id/c/7/berita/ps-kota-pahlawan" class="btn btn-persebaya-rounded btn-sm d-flex pull-right">Lainnya</a>
-				</div>
-						
-			
-	</div>	  
-	<div class="row mt-5">
-		
-	</div>
-</div>
-
-
-			
-			<div id="footer-divider" class="row px-md-5 pb-5 pb-md-3 mt-5"></div>
-<div id="footer-top" class="row align-items-center text-center pb-5 pb-md-3 pt-md-4">
-
-    <div class="col-12 col-md-2 px-md-0 my-3 offset-md-2 mx-md-3 text-center">
-        <a target="_blank" rel="nofollow" href="http://kapalapiglobal.com">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/KAPAL API-BW.png" class="img-fluid footer-sponsor-kapalapi" alt="kapal api">
-        </a>
-    </div>
-<!--
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-0 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.nfkings.com/en/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/Kings Wallet BW.png" class="img-fluid footer-sponsor-kings-wallet" alt="Kings Wallet">
-        </a>
-    </div>
--->
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.deltomed.id/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/ANTANGIN-BW.png" class="img-fluid footer-sponsor-extra-joss" alt="ANTANGIN" style="width:128px;">
-        </a>
-    </div>
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.citiconindonesia.com">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/CITICON-BW.png" class="img-fluid footer-sponsor-extra-joss" alt="CITICON" style="width:90px">
-        </a>
-    </div>
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://bintang7.com/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2021/EXTRA JOSS BW.png" class="img-fluid footer-sponsor-extra-joss" alt="extra joss">
-        </a>
-    </div> 
-       
-
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-0  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.mpmhondajatim.com/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/MPM HONDA-BW.png" class="img-fluid footer-sponsor-mpm" alt="mpm honda">
-        </a>
-    </div>    
-<!--    
-    <div class="col-4 col-md-1 offset-0 offset-md-0 px-md-0 my-3 mx-md-2 text-center">
-        <a target="_blank" rel="nofollow" href="https://um-surabaya.ac.id">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-ums-white.png" class="img-fluid footer-sponsor-ums" alt="UMS">
-        </a>
-    </div>
--->
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.kapalapistore.com/products/2721-bonteh-pet-melati-btl-330-ml">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/TEH BONTEH-BW.png" class="img-fluid footer-sponsor-nusanet" alt="TEH BONTEH" style="width:82px">
-        </a>
-    </div>
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="https://nusaboard.co.id">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/NUSA.png" class="img-fluid footer-sponsor-nusanet" alt="NUSA" style="width:95px">
-        </a>
-    </div>    
-    
-    <div class="col-4 col-sm-4 col-md-1 px-md-0 my-2  mx-md-5 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.instagram.com/hopephysiotherapy__/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/HOPE_FISIO.png" width="100px" class="img-fluid footer-sponsor-hopefisio" alt="hopefisio">
-        </a>
-    </div> 
-    
-    <div class="col-4 col-sm-4 col-md-2 px-md-0 my-2  mx-md-5 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.nusa.net.id/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2021/NUSANET BW.png" class="img-fluid footer-sponsor-nusanet" alt="nusanet">
-        </a>
-    </div>    
-    
-    <div class="col-4 col-md-2 offset-0 offset-md-0 px-md-0 my-3 mx-md-0 text-center">
-        <a target="_blank" rel="nofollow" href="https://www.instagram.com/flashfitnessindonesia/">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2023/FLASHFITNESS-BW.png" class="img-fluid footer-sponsor-extra-joss" alt="flashfit" style="width:95px">
-        </a>
-    </div>
-
-    <div class="col-4 col-sm-4 col-md-2 px-md-0 my-2  mx-md-4 text-center">
-        <a target="_blank" rel="nofollow" href="http://www.surya.co.id">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/sponsor-surya-white-v2.png" class="img-fluid footer-sponsor-surya" alt="surya">
-        </a>
-    </div>
-    
-    <div class="col-4 col-sm-4 col-md-2 px-md-0 my-2  mx-md-3 text-center">
-        <a target="_blank" rel="nofollow" href="https://jatim.tribunnews.com">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2021/TRIBUN NEWS BW.png" class="img-fluid footer-sponsor-tribun-jatim" alt="tribun jatim">
-        </a>
-    </div>    
-
-<!--    
-    <div class="col-4 col-md-3 offset-0 offset-md-0 px-md-0 my-3 mx-md-5 text-center text-md-left">
-        <a target="_blank" rel="nofollow" href="https://jatim.tribunnews.com">
-            <img src="https://www.persebaya.id/img/banner/sponsorship/2021/TRIBUN NEWS BW.png" class="img-fluid footer-sponsor-tribun-jatim" alt="tribun jatim">
-        </a>
-    </div>
--->
-
-    
-
-
-    <div class="col-md-12 mt-4">
-        <div class="row align-items-center">
-            
-            <div class="col-md-12 mt-2 mt-md-0 text-center">
-                <a href="https://www.persebaya.id/privacy-policy" class="mx-4 footer-links footer-text">Privacy Policy</a>
-		<a href="https://www.persebaya.id/tos" class="mx-2 footer-links footer-text">Terms of Service</a>
-            </div>
-            <div class="col-md-12 mt-2">
-                <div class="text-center mr-3">
-                    <span class="footer-text">This website is &copy; 2023 Persebaya Surabaya. All rights reserved</span>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas-open" style="color: black;">
+                    <i class="fa fa-bars"></i>
                 </div>
             </div>
-        </div>    
-    </div>
-</div>
+        </div>
+    </header>
+    <!-- Header End -->
 
-
-<div id="modal" class="popupContainer" style="display:none;">
-    <section class="popupBody">
-
-        <!-- Username & Password Login form -->
-        <div class="user_login vertical-align clear-vertical-mobile row">
-            <div id="loginPromoSection" class="col-sm-6 col-12">
-                <!-- /.login-logo -->
-
-                <!-- AUTHENTICATION PAGE BANNER IMAGE-->
-                                                            <img class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/img/banner/image-1517286049.jpg" style="max-width: 300px">
-                                                </div>
-            <div id="loginFormSection" class="col-sm-6 col-12">
-                
-                <div class="login-box-body">
-                    <div class="col-md-8 offset-md-2">
-                        <p class="box-title">Login Into Your Account</p>
-                        <form class="form-popup" role="form" method="POST" action="https://www.persebaya.id/login">
-                            <input type="hidden" name="_token" value="q2N27yD5gOQY3FV4xHLPMUOlHGBYGyy0AkL7hgsa">
-                            <input type="hidden" name="intended" id="intended">
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/hero/hero-1.jpg" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hs-item">
+                        <div class="container">
                             <div class="row">
-                                <div class="col-12  email-login-popup">
-                                    <input type="email" class="form-control" placeholder="Email Address" name="email"/>
-                                </div>
-                                <div class="col-12 password-login-popup">
-                                    <input type="password" class="form-control" placeholder="Password" name="password"/>
-                                </div>
-                            </div>
-                            <div class="row col-12 m-b-5">
-
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember"> Remember Me
-                                    </label>
+                                <div class="col-lg-12">
+                                    <div class="hs-text">
+                                        <h4>Persewangi Banyuwangi 1970</h4>
+                                        <h2 id="title-web" class="text-uppercase"></h2>
+                                        <h2 style="font-size: 30px; margin-top: -4%;" class="text-uppercase">Wis Wayahe
+                                            Tandang Maning</h2>
+                                        <!-- <a href="#" class="primary-btn">More Details</a> -->
+                                    </div>
                                 </div>
                             </div>
-                            <div class="row col-12 m-b-5">
-                                <a href="#" id="password-form" class="btn-forgot">Forgot your password?</a>
-                            </div>
-                            <div class="row col-12 m-b-5">
-                                <a href="#" class="btn-forgot" id="resend">Re-send Activation Email</a>
-                            </div>
-                            <div id="wrap_login">
-                                <button type="submit" id="btn-login" class="btn btn-black-popup m-t-10">LOG IN</button>
-                            </div>
-                            
-                            <br>
-                        </form>
-                        <hr>
-                        <a class="btn input-round btn-facebook" href="https://www.persebaya.id/redirect/facebook">
-                            <i class="fa fa-facebook-official"></i>
-                            <span> Login with Facebook</span>
-                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
 
-                        <a class="btn input-round btn-google" href="https://www.persebaya.id/redirect/google">
-                            <i class="fa fa-google-plus"></i>
-                            <span>  Login with Google</span>
-                        </a>
+    <!-- Trending News Section Begin -->
+    <div class="trending-news-section">
+        <div class="container">
+            <div class="tn-title"><i class="fa fa-caret-right"></i>INFO</div>
+            <div class="news-slider owl-carousel">
+                <div class="nt-item">DIPERCAYA MENJADI GM PERSEWANGI YUNUS WAHYUDI SIAPKAN 1,2 M JELANG LIGA 3 JATIM
+                </div>
+                <div class="nt-item">JANGAN LUPA FOLLOW AKUN SOSMED PERSEWANGI</div>
+            </div>
+        </div>
+    </div>
+    <!-- Trending News Section End -->
 
-                        <a class="btn input-round btn-twitter" href="https://www.persebaya.id/redirect/twitter">
-                            <i class="fa fa-twitter"></i>
-                            <span>  Login with Twitter</span>
-                        </a>
-                        <hr>
+    <!-- Match Section Begin -->
+    <section class="match-section set-bg" data-setbg="img/match/match-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="ms-content">
+                        <h4>Home Match</h4>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Persewangi vs Persebo</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">5 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/2.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Persewangi vs Nzr Sumbersari</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">7 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/3.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Persewangi vs Arek Surabaya</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">9 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/1.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="ms-content">
+                        <h4>Away Match</h4>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/2.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Persebo vs Persewangi</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">13 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/3.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Nzr Sumbersari vs Persewangi</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">17 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="mc-table">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td class="left-team">
+                                            <img src="img/logo-club/1.png" alt="">
+                                        </td>
+                                        <td class="mt-content">
+                                            <div class="mc-op">Arek Surabaya vs Persewangi</div>
+                                            <h4>VS</h4>
+                                            <div class="mc-op">15 Desember 2023</div>
+                                        </td>
+                                        <td class="right-team">
+                                            <img src="img/logo-club/main.png" alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Match Section End -->
 
-                        <!-- /.social-auth-links -->
-                        <p class="box-title">Don't Have an Account?</p>
-                        <div id="wrap_register">
-                            <a id="register_form" href="#" class="btn">SIGN UP</a>
+    <!-- Soccer Section Begin -->
+    <section class="club-section spad" id="sejarah">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="section-title">
+                        <h3>Sejarah <span>Persewangi</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="club-content">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="cc-pic">
+                            <img src="img/club-logo.png" alt="" width="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="container">
+                            <div id="accordion">
+                                <div class="panel list-group">
+                                    <!-- panel class must be in -->
+                                    <a href="#web_dev" data-parent="#accordion" data-toggle="collapse"
+                                        class="list-group-item">
+                                        <h4>Sejarah</h4>
+                                    </a>
+                                    <div class="collapse" id="web_dev">
+                                        <div class="list-group-item-text mt-3">
+                                            <p>Persatuan Sepak Bola Banyuwangi (disingkat Persewangi) adalah sebuah tim
+                                                sepak bola Indonesia yang bermarkas di Stadion Diponegoro, Banyuwangi.
+                                                Pada tahun 1997 tim ini pernah berlaga di Divisi Satu Liga Indonesia.
+                                                Tetapi, kemudian mengundurkan diri pada tahun yang sama. Setelah itu,
+                                                klub ini vakum hingga kembali memulai kiprahnya pada tahun 2002. Dan
+                                                kini Persewangi bermain di Liga 3 2022 Jawa timur</p>
+                                            <p> Tim ini pada tahun 2008 menghuni Divisi Satu Liga Indonesia setelah pada
+                                                musim kompetisi 2007 menjadi juara kedua Kompetisi Divisi II PSSI
+                                                sekaligus promosi ke divisi I. Sebelumnya, Persewangi meraih juara 4
+                                                dalam kompetisi divisi III 2006 dan promosi ke divisi II 2007.</p>
+                                            <p> Persewangi juga pernah menghasilkan beberapa pemain yang bermain untuk
+                                                tim nasional, seperti Hendro Kartiko, Zaenal Ichwan, Imam Hambali,
+                                                dsb.[butuh rujukan</p>
+                                            <p> Perseaangi pernah mengalami dualisme kepengurusan pada awal tahun 2012
+                                                sampai dengan tahun 2019 dan pada awal tahun 2020 persewangi resmi
+                                                menjadi satu di bawah naungan Yayasan Persewangi Banyuwangi Indonesia
+                                                (YPBI).[butuh rujukan] </p>
+                                        </div>
+
+                                    </div>
+
+                                    <a href="#desktop" data-parent="#accordion" data-toggle="collapse"
+                                        class="list-group-item" `>
+                                        <h4>Julukan</h4>
+                                    </a>
+                                    <div class="collapse" id="desktop">
+                                        <div class="list-group-item-text m-3">
+                                            <p><b> <i>Laskar Blambangan</i> ,</b>
+                                                Laskar Blambangan atau yg sering disingkat dengan nama The Lasblang
+                                                adalah julukan dari Persewangi Banyuwangi. Nama "Blambangan" diambil
+                                                dari "nama Kerajaan Hindu" yang dahulu terdapat di "Kabupaten
+                                                Banyuwangi". Alasan diberinya julukan Laskar Blambangan kepada
+                                                "Persewangi Banyuwangi", karena diharapkan pemain mempunyai jiwa yang
+                                                kuat dan bersemangat serta tangguh menghadapi lawan layaknya pasukan
+                                                Kerajaan Blambangan.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <a href="#mobile" data-parent="#accordion" data-toggle="collapse"
+                                        class="list-group-item">
+                                        <h4>Prestasi</h4>
+                                    </a>
+                                    <div class="collapse" id="mobile">
+                                        <div class="list-group-item-text m-3">
+                                            <p class="text-black"><b> Persewangi Senior </b><br></p>
+                                            <div class="container">
+                                                <ul>
+                                                    <li> Runner up Divisi II 1996/97</li>
+                                                    <li> 6 Besar Divisi III 2006</li>
+                                                    <li> Runner up Divisi II 2007</li>
+                                                    <li> Juara Piala Wali kota Pasuruan 2007</li>
+                                                    <li> 6 Besar Piala Gubernur Jatim 2005</li>
+                                                    <li> 8 Besar Piala Gubernur Jatim 2006</li>
+                                                    <li> Runner up Divisi II 2007</li>
+                                                    <li>Juara 2 Divisi II 2009/2010</li>
+                                                    <li> promosi ke divisi I 2010/2011</li>
+                                                    <li>Peringkat 6 Divisi I dan promosi ke divisi utama 2011/2012</li>
+                                                    <li>Peringkat 4 Liga 3 Jawa Timur 2021.</li>
+                                                </ul>
+                                            </div>
+                                            <br>
+                                            <p><b>Persewangi U-18</b><br></p>
+                                            <div class="container">
+                                                <ul>
+                                                    <li>Peringkat 4 Liga Remaja Jatim 2005</li>
+                                                    <li> Juara I Liga Remaja Jatim 2006</li>
+                                                    <li> Juara Popda (Pekan Olahraga Daerah) Jatim 2006</li>
+                                                    <li> Juara Popwil (Pekan Olahraga Wilayah) Indonesia Timur 2006</li>
+                                                    <li> Peringkat 3 Popnas (Pekan Olahraga Nasional) 2007</li>
+                                                    <li> Peringkat 4 Liga Remaja Jatim 2007</li>
+                                                    <li>Juara ISL 2010/2011</li>    
+                                                </ul>
+                                            </div>
+                                            <br>
+                                            <p><b>Persewangi U-21</b><br></p>
+                                            <div class="container">
+                                                <ul>
+                                                    <li>Peringkat 3 Provinsi Jatim 2007</li>  
+                                                </ul>
+                                            </div>
+                                            <br>
+                                            <p><b>Persewangi U-23</b><br></p>
+                                            <div class="container">
+                                                <ul>
+                                                    <li>Peringkat 4 Turnament Pakde U-23 Jatim 2006</li>  
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Soccer Section End -->
+
+    <!-- Latest Section Begin -->
+    <section class="latest-section" id="berita">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-title latest-title">
+                        <h3>Berita <span>Persewangi</span></h3>
+                        <ul>
+                            <li>All</li>
+                            <li>LIGA 1</li>
+                            <li>LIGA 2</li>
+                            <li>LIGA 3 </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="news-item left-news">
+                                <div class="ni-pic set-bg" data-setbg="img/persewangi-brita/1.jpeg">
+                                    <div class="ni-tag">Soccer</div>
+                                </div>
+                                <div class="ni-text">
+                                    <h4><a href="#">Dipercaya Menjadi GM Persewangi Yunus WAHYUDI Siapkan 1,3 M</a></h4>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> 31 Oktober 2023 - 22:57 WIB</li>
+                                        <li><i class="fa fa-edit"></i> 0 Comment</li>
+                                    </ul>
+                                    <p>"Kami sampaikan secara terbuka, kami atas nama Pengurus Persewangi Banyuwangi
+                                        menunjuk saudara Yunus Wahyudi sebagai GM yang baru," tegas Jose Rudy saat
+                                        menggelar pertemuan dengan kepungurusan Persewangi di wisma atlet GOR Tawangalun
+                                        Banyuwangi, pada Selasa 31 Oktober 2023.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- <div class="news-item">
+                                <div class="ni-pic">
+                                    <img src="img/news/ln-1.jpg" alt="">
+                                </div>
+                                <div class="ni-text">
+                                    <h5><a href="#">How To Quit Smoking Using Zyban</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="ni-pic">
+                                    <img src="img/news/ln-2.jpg" alt="">
+                                </div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Decorate For Less With Art Posters</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="ni-pic">
+                                    <img src="img/news/ln-3.jpg" alt="">
+                                </div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Home Business Advertising Ideas</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="news-item">
+                                <div class="ni-pic">
+                                    <img src="img/news/ln-4.jpg" alt="">
+                                </div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Lasik Doesn T Stop Your Eyes From Aging</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <div class="news-item">
+                                <div class="ni-pic">
+                                    <img src="img/news/ln-4.jpg" alt="">
+                                </div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Masih Dalam Tahap Pembuatan</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i></li>
+                                        <li><i class="fa fa-edit"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="section-title">
+                        <h3>Club <span>Ranking</span></h3>
+                    </div>
+                    <div class="points-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="th-o">Pos</th>
+                                    <th>Team</th>
+                                    <th class="th-o">P</th>
+                                    <th class="th-o">W</th>
+                                    <th class="th-o">L</th>
+                                    <th class="th-o">PTS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td class="team-name">
+                                        <img src="img/logo-club/main.png" alt="">
+                                        <span>Persewangi</span>
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td class="team-name">
+                                        <img src="img/logo-club/2.png" alt="">
+                                        <span>Persebo</span>
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td class="team-name">
+                                        <img src="img/logo-club/1.png" alt="">
+                                        <span>Arek Suroboyo</span>
+                                    </td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <a href="#" class="p-all">View All</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Section End -->
+
+    <!-- Video Section Begin -->
+    <section class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h3>Persewangi <span>TV</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-transform: capitalize;">
+                <div class="video-slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="video-item set-bg" data-setbg="img/persewangi-brita/1.jpeg">
+                            <div class="vi-title">
+                                <h5>DIPERCAYA MENJADI GM PERSEWANGI YUNUS WAHYUDI SIAPKAN 1,3 M</h5>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=FY_7JCxOywQ" class="play-btn video-popup"><img
+                                    src="img/persewangi-brita/1.jpeg" alt=""></a>
+                            <div class="vi-time">15:38</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="video-item set-bg" data-setbg="img/videos/video-2.jpg">
+                            <div class="vi-title">
+                                <h5>PERSEWANGI BANYUWANGI GELAR LAGA UJI COBA MELAWAN PERSID JEMBER</h5>
+                            </div>
+                            <a href="https://www.youtube.com/watch?v=X3Yct8X1SwQ" class="play-btn video-popup"><img
+                                    src="img/videos/play.png" alt=""></a>
+                            <div class="vi-time">11:13</div>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <!-- /.login-box-body -->
-        </div>
+    </section>
+    <!-- Video Section End -->
 
-        
-        
-
-
-	  	<!-- RESEND ACTIVATION EMAIL -->
-	  	<div class="resend_email">
-            <div class="vertical-align clear-vertical-mobile row">
-                <div class="col-sm-6 col-12">
-                    <!-- /.login-logo -->
-
-                    <!-- AUTHENTICATION PAGE BANNER IMAGE-->
-                                                                        <img class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/img/banner/image-1517286049.jpg" style="max-width: 300px">
-                                                            </div>
-                <div class="col-sm-6 col-12">
-                    <div class="col-md-8 offset-md-2">
-                        <h4>Resend Activation Email</h4>
-                        <form action="https://www.persebaya.id/register/resend" method="post">
-                            <input type="hidden" name="_token" value="q2N27yD5gOQY3FV4xHLPMUOlHGBYGyy0AkL7hgsa">
-                            <div class="form-group has-feedback">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text fa fa-envelope"></span>
-                                    </div>
-                                    <input type="email" class="form-control" placeholder="Email" name="email"/>
+    <!-- Popular News Section Begin -->
+    <section class="popular-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h3>Galery <span>Persewangi</span></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="news-item popular-item set-bg" data-setbg="img/persewangi-brita/3.jpeg">
+                                <div class="ni-tag tenis">HOT</div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Penandatanganan Kontrak Persewangi</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
                                 </div>
                             </div>
-
-                            <button type="submit" class="d-block mx-auto btn btn-black-popup btn-primary btn-block btn-flat">Send Activation Link</button>
-                        </form>
-
-                        <a href="#" class="login1 btn-forgot">Log in</a><br>
-                        <a href="#" class="text-center register1 btn-forgot">Register a new membership</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- FORGOT PASSWORD -->
-	  	<div class="forgot_password">
-
-            <div class="vertical-align clear-vertical-mobile row">
-                <div class="col-12 col-sm-6">
-                    <!-- /.login-logo -->
-                    
-                    <!-- AUTHENTICATION PAGE BANNER IMAGE-->
-                                                                        <img class="img img-fluid d-block mx-auto" src="https://www.persebaya.id/img/banner/image-1517286049.jpg" style="max-width: 300px">
-                                                            </div>
-                <div class="col-12 col-sm-6">
-                    <div class="col-md-8 offset-md-2">
-                        <h4>Reset Your Password</h4>
-                        <form action="https://www.persebaya.id/password/email" method="post">
-                            <input type="hidden" name="_token" value="q2N27yD5gOQY3FV4xHLPMUOlHGBYGyy0AkL7hgsa">
-                            <div class="form-group has-feedback">
-                                <input type="email" class="form-control" placeholder="Email" name="email"/>
-                                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="news-item popular-item set-bg" data-setbg="img/persewangi-brita/2.jpeg">
+                                <div class="ni-tag tenis">HOT</div>
+                                <div class="ni-text">
+                                    <h5><a href="#">Yunus Wahyudi GM Persewangi </a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-calendar"></i> May 19, 2019</li>
+                                        <li><i class="fa fa-edit"></i> 3 Comment</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <button type="submit" class="d-block mx-auto btn btn-black-popup btn-block btn-flat">Send Password Reset Link</button>
-                        </form>
+                        </div>
+                    </div>
+                </div>
 
-                        <a href="#" class="login1 btn-forgot">Log in</a><br>
-                        <a href="#" class="text-center register1 btn-forgot">Register a new membership</a>
+            </div>
+        </div>
+    </section>
+    <!-- Popular News Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section set-bg" data-setbg="img/footer-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-70 col-md-6">
+                    <div class="fs-logo">
+                        <div class="logo">
+                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <ul>
+                            <li><i class="fa fa-envelope"></i> Info.persewangi@gmail.com</li>
+                            <!-- <li><i class="fa fa-copy"></i> e</li> -->
+                            <li><i class="fa fa-thumb-tack"></i> Jl. Prambanan Gg. V 19-11, Taman Baru, Kec. Banyuwangi,
+                                Kabupaten Banyuwangi, Jawa Timur 68416</li>
+                        </ul>
+                        <div class="fs-social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-tumblr"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright-option">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="co-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="#"
+                                    target="_blank">Persewangi Dev</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                        <div class="co-widget">
+                            <ul>
+                                <li><a href="#">Copyright notification</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </section>
-
-</div>
-
-
-
-
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-	<!-- Background of PhotoSwipe.
-		 It's a separate element, as animating opacity is faster than rgba(). -->
-	<div class="pswp__bg"></div>
-
-	<!-- Slides wrapper with overflow:hidden. -->
-	<div class="pswp__scroll-wrap">
-
-		<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-		<!-- don't modify these 3 pswp__item elements, data is added later on. -->
-		<div class="pswp__container">
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-			<div class="pswp__item"></div>
-		</div>
-
-		<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-		<div class="pswp__ui pswp__ui--hidden">
-
-			<div class="pswp__top-bar">
-
-				<!--  Controls are self-explanatory. Order can be changed. -->
-
-				<div class="pswp__counter"></div>
-
-				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-				<!-- <button class="pswp__button pswp__button--share" title="Share"></button> -->
-
-				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-				<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-				<!-- element will get class pswp__preloader--active when preloader is running -->
-				<div class="pswp__preloader">
-					<div class="pswp__preloader__icn">
-						<div class="pswp__preloader__cut">
-							<div class="pswp__preloader__donut"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-				<div class="pswp__share-tooltip"></div>
-			</div>
-
-			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-			</button>
-
-			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-			</button>
-		   
-			<div class="pswp__caption">
-				<div class="pswp__caption__center" style="text-align: center;max-width: 700px;"></div>
-				<div class="caption-name-popup caption-addition"></div>
-			</div>
-		</div>
-	</div>
-</div>
-<script src="https://www.persebaya.id/js/photoswipe.min.js"></script>
-<script src="https://www.persebaya.id/js/photoswipe-ui-default.min.js"></script>
-<script type="text/javascript">
-    var initPhotoSwipeFromDOM = function (gallerySelector) {
-
-        // parse slide data (url, title, size ...) from DOM elements
-        // (children of gallerySelector)
-        var parseThumbnailElements = function (el) {
-            
-            var thumbElements = el.childNodes,
-                    numNodes = thumbElements.length,
-                    items = [],
-                    figureEl,
-                    linkEl,
-                    size,
-                    item;
-
-            for (var i = 0; i < numNodes; i++) {
-
-                figureEl = thumbElements[i]; // <figure> element
-
-                // include only element nodes
-                if (figureEl.nodeType !== 1) {
-                    continue;
-                }
-
-                linkEl = figureEl.children[0]; // <a> element
-
-                size = linkEl.getAttribute('data-size').split('x');
-
-                // create slide object
-                item = {
-                    src: linkEl.getAttribute('href'),
-                    w: parseInt(size[0], 10),
-                    h: parseInt(size[1], 10)
-                };
-
-                if (figureEl.children.length > 1) {
-                    // <figcaption> content
-                    item.title = figureEl.children[1].innerHTML;
-                }
-
-                if (linkEl.children.length > 0) {
-                    // <img> thumbnail element, retrieving thumbnail url
-                    item.msrc = linkEl.children[0].getAttribute('src');
-                }
-
-                item.el = figureEl; // save link to element for getThumbBoundsFn
-                items.push(item);
-            }
-
-            return items;
-        };
-
-        // find nearest parent element
-        var closest = function closest(el, fn) {
-            if (el.id == "edit") {
-                return 0;
-            }else{
-                return el && ( fn(el) ? el : closest(el.parentNode, fn) );
-            }
-        };
-
-        // triggers when user clicks on thumbnail
-        var onThumbnailsClick = function (e) {
-
-            e = e || window.event;
-            e.preventDefault ? e.preventDefault() : e.returnValue = false;
-
-            var eTarget = e.target || e.srcElement;
-
-            // find root element of slide
-            var clickedListItem = closest(eTarget, function (el) {
-                if (el.id == "edit") {
-                    return 0;
-                }else{
-                    return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
-                }
-            });
-
-            if (!clickedListItem) {
-                return;
-            }
-
-            // find index of clicked item by looping through all child nodes
-            // alternatively, you may define index via data- attribute
-            var clickedGallery = clickedListItem.parentNode,
-                    childNodes = clickedListItem.parentNode.childNodes,
-                    numChildNodes = childNodes.length,
-                    nodeIndex = 0,
-                    index;
-
-            for (var i = 0; i < numChildNodes; i++) {
-                if (childNodes[i].nodeType !== 1) {
-                    continue;
-                }
-
-                if (childNodes[i] === clickedListItem) {
-                    index = nodeIndex;
-                    break;
-                }
-                nodeIndex++;
-            }
-
-
-            if (index >= 0) {
-                // open PhotoSwipe if valid index found
-                openPhotoSwipe(index, clickedGallery);
-            }
-            return false;
-        };
-
-        // parse picture index and gallery index from URL (#&pid=1&gid=2)
-        var photoswipeParseHash = function () {
-            var hash = window.location.hash.substring(1),
-                    params = {};
-
-            if (hash.length < 5) {
-                return params;
-            }
-
-            var vars = hash.split('&');
-            for (var i = 0; i < vars.length; i++) {
-                if (!vars[i]) {
-                    continue;
-                }
-                var pair = vars[i].split('=');
-                if (pair.length < 2) {
-                    continue;
-                }
-                params[pair[0]] = pair[1];
-            }
-
-            if (params.gid) {
-                params.gid = parseInt(params.gid, 10);
-            }
-
-            return params;
-        };
-
-        var openPhotoSwipe = function (index, galleryElement, disableAnimation, fromURL) {
-            var pswpElement = document.querySelectorAll('.pswp')[0],
-                    gallery,
-                    options,
-                    items;
-
-            items = parseThumbnailElements(galleryElement);
-
-            // define options (if needed)
-            options = {
-
-                // define gallery index (for URL)
-                galleryUID: galleryElement.getAttribute('data-pswp-uid'),
-
-                getThumbBoundsFn: function (index) {
-                    // See Options -> getThumbBoundsFn section of documentation for more info
-                    var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
-                            pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
-                            rect = thumbnail.getBoundingClientRect();
-
-                    return {x: rect.left, y: rect.top + pageYScroll, w: rect.width};
-                }
-
-            };
-
-            // PhotoSwipe opened from URL
-            if (fromURL) {
-                if (options.galleryPIDs) {
-                    // parse real index when custom PIDs are used
-                    // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
-                    for (var j = 0; j < items.length; j++) {
-                        if (items[j].pid == index) {
-                            options.index = j;
-                            break;
-                        }
-                    }
-                } else {
-                    // in URL indexes start from 1
-                    options.index = parseInt(index, 10) - 1;
-                }
-            } else {
-                options.index = parseInt(index, 10);
-            }
-
-            // exit if index not found
-            if (isNaN(options.index)) {
-                return;
-            }
-
-            if (disableAnimation) {
-                options.showAnimationDuration = 0;
-            }
-
-            // Pass data to PhotoSwipe and initialize it
-            gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
-            gallery.init();
-        };
-
-        // loop through all gallery elements and bind events
-        var galleryElements = document.querySelectorAll(gallerySelector);
-
-        for (var i = 0, l = galleryElements.length; i < l; i++) {
-            galleryElements[i].setAttribute('data-pswp-uid', i + 1);
-            galleryElements[i].onclick = onThumbnailsClick;
-        }
-
-        // Parse URL and open gallery if it contains #&pid=3&gid=1
-        var hashData = photoswipeParseHash();
-        if (hashData.pid && hashData.gid) {
-            openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
-        }
-    };
-
-    // execute above function
-    initPhotoSwipeFromDOM('.my-gallery');
-
-    $('img#image_result').on('click', function(){
-        if(!$(this).hasClass('no-caption'))
-        {
-            console.log($(this).hasClass('no-caption'));
-            var firstLabel = $('#first_label_'+$(this).data('id')).text().trim();
-            if(firstLabel != '')
-            {
-                $('div.caption-addition').html(firstLabel + ', ' + $('#second_label_'+$(this).data('id')).text() + '<br>' + $('#third_label_'+$(this).data('id')).text());    
-            }
-            else
-            {
-                $('div.caption-addition').html($('#second_label_'+$(this).data('id')).text() + '<br>' + $('#third_label_'+$(this).data('id')).text());    
-            }
-        }
-        else
-        {
-            $('div.caption-addition').text(""); 
-        }
-        
-    });
-</script>
-<script src="https://www.persebaya.id/js/jquery.leanModal.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-
-<script>
-    // Plugin options and our code
-    $(".modal_trigger").leanModal({
-        overlay: 0.6,
-        closeButton: ".modal_close"
-    });
-    $("#modal_trigger1").leanModal({
-        overlay: 0.6,
-        closeButton: ".modal_close"
-    });
-
-    $(".modal-trigger-poll").leanModal({
-        overlay: 0.6,
-        closeButton: ".modal_close"
-    });
-
-    $("#goToRegistrationEvent").leanModal({
-        overlay: 0.6,
-        closeButton: ".modal_close"
-    });
-
-    $(".btn-subscribe").leanModal({
-        overlay: 0.6,
-        closeButton: ".modal_close"
-    });
-
-
-
-    $('#modal').on('close.leanModal', function(e) { alert('The modal is now closed.') });
-
-    //prevent user input manually
-    $('input#datepicker').bind('keyup keydown keypress', function (evt) {
-       return false;
-    });
-
-    $(function () {
-        // Calling Login Form
-        $("#doYouHaveMember").click(function () {
-            $(".user_register").hide();
-            $(".user_register_next_page").hide();
-            $(".user_login").show();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="fa fa-close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#title-web', {
+            strings: ['Laskar Blambangan Jenggirat <span style="color:red;" > Tangi </span>'],
+            typeSpeed: 80,
         });
+    </script>
+</body>
 
-        $("#login_form").click(function () {
-            $(".user_register").hide();
-            $(".user_register_next_page").hide();
-            $(".user_login").show();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-
-        $(".login1").click(function () {
-            $(".user_register").hide();
-            $(".user_register_next_page").hide();
-            $(".user_login").show();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-        
-
-        // Calling Register Form
-        $("#register_form").click(function () {
-            $(".user_login").hide();
-            $(".user_register").show();
-            $(".user_register_next_page").hide();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-        $(".btn-subscribe").click(function () {
-            $(".user_login").hide();
-            $(".user_register").show();
-            $(".user_register_next_page").hide();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            $('html, body').animate({ scrollTop: 0 }, 'fast');
-            return false;
-        });
-
-        $(".register1").click(function () {
-            $(".user_login").hide();
-            $(".user_register").show();
-            $(".user_register_next_page").hide();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-
-        // Calling Register Form
-        $("#previous_form").click(function () {
-            $(".user_login").hide();
-            $(".user_register").show();
-            $(".user_register_next_page").hide();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-        
-        // clear error border when input is focus
-        $(".register-validate").focus(function(){
-            $(this).removeClass('error-column');
-
-            // remove error text below password input
-            if($(this).attr('id') == "register_password_confirm" || $(this).attr('id') == "register_password")
-            {
-                $('#error_password_confirm').text('');
-                $("#register_password").removeClass('error-column');
-                $("#register_password_confirm").removeClass('error-column');
-            }
-
-            // remove error text below email input
-            if($(this).attr('id') == "register_email")
-            {
-                $('#error_email').text('');
-            }
-            
-        });
-
-        // next button clicked
-        $("#next_form").click(function () {
-            isError = false;
-            // check all input that has 'register-validate' class, then give error border if that input is blank
-            for (var i = 0; i < $('.register-validate').length; i++) {
-                if($($('.register-validate')[i]).val().trim() == '')
-                {
-                    $($('.register-validate')[i]).addClass('error-column');
-                    isError = true;
-                }
-            }
-            console.log(isError);
-            if(isError != true)
-            {
-                $(".user_login").hide();
-                $(".user_register").hide();
-                $(".user_register_next_page").show();
-                $(".resend_email").hide();
-                $(".forgot_password").hide();
-            }
-            return false;
-        });
-
-
-        $("#btn_register").click(function () {
-            
-            var isError = false;
-            var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
-            if (!testEmail.test($('#register_email').val()))
-            {
-                $('#register_email').addClass('error-column');
-                $('#error_email').text('This email not valid.');
-                isError = true;
-            }
-
-            if($('#register_password').val() !=  $('#register_password_confirm').val())
-            {
-                $('#register_password').addClass('error-column');
-                $('#register_password_confirm').addClass('error-column');
-                $('#error_password_confirm').text('Password is not match.');
-                isError = true;
-            }
-
-            if($('#register_password').val().trim() == "")
-            {
-                $('#register_password').addClass('error-column');
-                isError = true;
-            }
-
-            // check all input that has 'register-validate' class, then give error border if that input is blank
-            for (var i = 0; i < $('.register-validate').length; i++) {
-                if($($('.register-validate')[i]).val().trim() == '')
-                {
-                    $($('.register-validate')[i]).addClass('error-column');
-                    isError = true;
-                    console.log($($('.register-validate')[i]));
-                }
-            };
-            // console.log($('.register-validate'));
-            if(isError == true)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        });
-
-        $("#previous_form").click(function () {
-            $(".user_login").hide();
-            $(".user_register").show();
-            $(".user_register_next_page").hide();
-            $(".resend_email").hide();
-            $(".forgot_password").hide();
-            return false;
-        });
-
-        $("#resend").click(function () {
-            $(".user_login").hide();
-            $(".user_register").hide();
-            $(".resend_email").show();
-            $(".user_register_next_page").hide();
-            $(".forgot_password").hide();
-            return false;
-        }); 
-
-        $("#password-form").click(function () {
-            $(".user_login").hide();
-            $(".user_register").hide();
-            $(".resend_email").hide();
-            $(".user_register_next_page").hide();
-            $(".forgot_password").show();
-            return false;
-        }); 
-
-        
-
-
-        //
-        var d = new Date();
-        var month = d.getMonth();
-        var day = d.getDate();
-        var year = d.getFullYear();
-	    var yearMax = d.getFullYear()-12;
-	    var yearMin = d.getFullYear()-21;
-	    // alert(yearMax+" "+yearMin);
-        $('#datepicker').datepicker({
-	        dateFormat: 'dd-mm-yy',
-	        changeMonth: true,
-  	        changeYear: true,
-	        //minDate: new Date(yearMin, month, day+1),
-	        //maxDate: new Date(yearMax, month, day)
-            maxDate: new Date(year, month, day)
-	    });
-
-        
-        /*
-        // carousel national challenge zetizen
-        $("#zetizen-public-challenge").owlCarousel({
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
-            items : 4,
-            lazyLoad : true,
-            itemsDesktopSmall : [786,3], 
-            itemsTablet: [700,2], 
-            itemsMobile : [450,1] 
-        });
-        */
-
-    });
-
-</script>
-
-<!-- search button clicked -->
-<script type="text/javascript">
-
-    $('.search-lup').on('click', function()
-    {
-        $.get(baseURL + "/search", function( data ) {
-            $('#modalSearch').modal({
-                backdrop: false 
-            });
-            $('#modalSearch').on('shown.bs.modal', function(){
-                $('#modalSearch .load_modal').html(data);
-            });
-            $('#modalSearch').on('hidden.bs.modal', function(){
-                $('#modalSearch .modal-body').data('');
-            });
-        });
-    });
-
-
-    
-    $('#lean_overlay').click(function(){
-
-        $(".user_login").show();
-        $(".user_register").hide();
-        $(".resend_email").hide();
-        $(".user_register_next_page").hide();
-        $(".forgot_password").hide();
-        $('#messagePopup').hide();
-        return false;
-    });
-</script>
-
-
-					
-		</div>
-
-	</body>
-
-	<!-- bootstrab js -->
-	<script src="https://www.persebaya.id/js/bootstrap-4-0-0.bundle.min.js" type="text/javascript"></script>
-	<!-- owl carousel -->
-	<script src="https://www.persebaya.id/js/owl.carousel.js"></script>
-	<!--media queries to js-->
-	<script src="https://www.persebaya.id/js/enquire.js"></script>
-	<!--custom functions-->
-	<script src="https://www.persebaya.id/js/custom-fun.js?v=12"></script>
-	
-
-		
-	<script type="text/javascript" src="https://www.persebaya.id/js/blazy.min.js"></script>
-<script type="text/javascript">
-	var bLazy = new Blazy({
-		breakpoints: [{
-		        width: 600 // max-width
-				, src: 'data-src-small'
-		     }]
-        , success: function(element){
-            setTimeout(function(){
-                // We want to remove the loader gif now.
-                // First we find the parent container
-                // then we remove the "loadingLazy" class which holds the loader image
-                var parent = element.parentNode;
-                parent.className = parent.className.replace(/\bloadingLazy\b/,'');
-            }, 200);
-        }
-        , error: function(element, msg){
-        	var parent = element.parentNode;
-            if(msg === 'missing'){
-                // Data-src is missing
-                console.log('data-src is missing');
-                element.src = "https://www.persebaya.id/img/loading_icon.gif";
-                parent.className = parent.className.replace(/\bloadingLazy\b/,'');
-            }
-            else if(msg === 'invalid'){
-                // Data-src is invalid
-                console.log('data-src is invalid');
-                element.src = "https://www.persebaya.id/img/loading_icon.gif";
-                parent.className = parent.className.replace(/\bloadingLazy\b/,'');
-            }  
-        }
-    });
-</script>
-<style type="text/css">
-	.play-button {
-		width: 90px;
-		height: 60px;
-		background-color: #060606;
-		box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
-		z-index: 1;
-		opacity: 0.8;
-		border-radius: 6px;
-	}
-	.play-button:before {
-		content: "";
-		border-style: solid;
-		border-width: 15px 0 15px 26.0px;
-		border-color: transparent transparent transparent #fff;
-	}
-	.play-button {
-		cursor: pointer;
-	}
-	.play-button,
-	.play-button:before {
-		position: absolute;
-	}
-	.play-button,
-	.play-button:before {
-		top: 50%;
-		left: 50%;
-		transform: translate3d( -50%, -50%, 0 );
-	}
-
-	.home-youtube-thumb
-	{
-	    position:absolute;
-	    width: 100%;
-	    top:0;
-	    left:0;
-	    right:0;
-	    bottom:0;
-	    margin:auto;
-	}
-	.youtube-button-wrapper
-	{
-		z-index: 2;
-	    position:absolute;
-	    top:0;
-	    left:0;
-	    right:0;
-	    bottom:0;
-	    background:rgba(119, 119, 119, 0.3);
-	    cursor: pointer;
-	}
-</style>
-
-<script>
-	var youtubeEl;
-	var youtubeWrapper = document.getElementsByClassName("youtube-button-wrapper");
-	Array.from(youtubeWrapper).forEach(function(element) {
-      element.onclick = getYoutube;
-    });
-
-
-    function getYoutube(e) 
-    {
-    	var el = e.target;
-		var tag = document.getElementById('youtubeScript');
-
-		var iframe = document.createElement( "iframe" );
-
-		iframe.setAttribute( "frameborder", "0" );
-		iframe.setAttribute( "allowfullscreen", "" );
-		iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ el.dataset.embed +"?rel=0&showinfo=0&autoplay=1" );
-
-		el.innerHTML = "";
-		el.appendChild( iframe );
-	}
-
-
-
-</script>
 </html>
